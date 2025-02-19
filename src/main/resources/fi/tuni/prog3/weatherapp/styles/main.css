@@ -1,0 +1,76 @@
+/*
+ * Empty Stylesheet file.
+ */
+
+.mainFxmlClass {
+/* Apply a background color to the entire BorderPane */
+#mainBorderPane {
+    -fx-background-color: #f0f0f0; /* Light gray background */
+}
+
+/* Style the search bar */
+.search-bar {
+    -fx-spacing: 5;
+    -fx-padding: 5;
+    -fx-background-color: #ffffff; /* White background */
+    -fx-border-color: #ccc; /* Light gray border */
+    -fx-border-width: 1;
+}
+
+/* Style the search field */
+.search-field {
+    -fx-pref-width: 100;
+    -fx-pref-height: 30;
+    -fx-font-size: 14;
+}
+
+/* Style the city label */
+.city-label {
+    -fx-font-size: 20;
+    -fx-font-weight: bold;
+    -fx-translate-x: 20px;
+    -fx-text-fill: #333; /* Dark gray text color */
+}
+.date-label {
+    -fx-font-size: 10;
+    -fx-font-weight: bold;
+    -fx-translate-x: 20px;
+    -fx-text-fill: #ffa500;
+}
+
+/* Style the temperature label */
+.temperature-label {
+    -fx-font-size: 30;
+    -fx-font-weight: bold;
+    -fx-translate-x: 20px;
+    -fx-text-fill: #333; /* Orange text color */
+}
+
+.temperature-label::after {
+    content: "\00B0"; /* Unicode for the degree symbol */
+    font-size: 14px; /* Adjust the font size as needed */
+}
+
+/* Style the sidebar */
+.sidebar {
+    -fx-spacing: 10;
+    -fx-padding: 10;
+    -fx-background-color: #333; /* Dark background color */
+}
+
+/* Style the sidebar buttons */
+.sidebar-button {
+    -fx-pref-width: 100;
+    -fx-pref-height: 30;
+    -fx-font-size: 14;
+    -fx-text-fill: #333; /* White text color */
+    -fx-background-color: #FFFFFF; /* Green background color */
+    -fx-border-color: #FFFFFF; /* Darker green border color */
+    -fx-border-width: 1;
+}
+
+/* Change button color on hover */
+.sidebar-button:hover {
+    -fx-background-color: #C0C0C0; /* Darker green on hover */
+}
+}

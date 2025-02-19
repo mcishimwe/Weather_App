@@ -1,0 +1,240 @@
+{
+    "city": {
+        "id": 658225,
+        "name": "Helsinki",
+        "coord": {
+            "lon": 24.9427,
+            "lat": 60.1675
+        },
+        "country": "FI",
+        "population": 0,
+        "timezone": 7200
+    },
+    "cod": "200",
+    "message": 8.8839954,
+    "cnt": 7,
+    "list": [{
+            "dt": 1702029600,
+            "sunrise": 1702019329,
+            "sunset": 1702041320,
+            "temp": {
+                "day": 268.99,
+                "min": 267.36,
+                "max": 269.72,
+                "night": 268.41,
+                "eve": 267.65,
+                "morn": 269.42
+            },
+            "feels_like": {
+                "day": 262.35,
+                "night": 262.46,
+                "eve": 261.33,
+                "morn": 262.45
+            },
+            "pressure": 1030,
+            "humidity": 86,
+            "weather": [{
+                    "id": 600,
+                    "main": "Snow",
+                    "description": "light snow",
+                    "icon": "13d"
+                }],
+            "speed": 7.04,
+            "deg": 129,
+            "gust": 10.03,
+            "clouds": 100,
+            "pop": 0.61,
+            "snow": 0.96
+        }, {
+            "dt": 1702116000,
+            "sunrise": 1702105826,
+            "sunset": 1702127675,
+            "temp": {
+                "day": 268.55,
+                "min": 268.31,
+                "max": 269.28,
+                "night": 269.28,
+                "eve": 269.04,
+                "morn": 268.45
+            },
+            "feels_like": {
+                "day": 262.04,
+                "night": 262.42,
+                "eve": 262.04,
+                "morn": 262.36
+            },
+            "pressure": 1025,
+            "humidity": 86,
+            "weather": [{
+                    "id": 600,
+                    "main": "Snow",
+                    "description": "light snow",
+                    "icon": "13d"
+                }],
+            "speed": 6.86,
+            "deg": 135,
+            "gust": 9.31,
+            "clouds": 100,
+            "pop": 0.9,
+            "snow": 0.68
+        }, {
+            "dt": 1702202400,
+            "sunrise": 1702192318,
+            "sunset": 1702214034,
+            "temp": {
+                "day": 270.31,
+                "min": 269.41,
+                "max": 270.31,
+                "night": 270.16,
+                "eve": 270.16,
+                "morn": 269.97
+            },
+            "feels_like": {
+                "day": 264.46,
+                "night": 265.42,
+                "eve": 264.92,
+                "morn": 263.38
+            },
+            "pressure": 1016,
+            "humidity": 93,
+            "weather": [{
+                    "id": 600,
+                    "main": "Snow",
+                    "description": "light snow",
+                    "icon": "13d"
+                }],
+            "speed": 6.81,
+            "deg": 134,
+            "gust": 9.51,
+            "clouds": 100,
+            "pop": 0.93,
+            "snow": 5.71
+        }, {
+            "dt": 1702288800,
+            "sunrise": 1702278807,
+            "sunset": 1702300399,
+            "temp": {
+                "day": 272.24,
+                "min": 270.09,
+                "max": 273.65,
+                "night": 273.65,
+                "eve": 273.34,
+                "morn": 270.67
+            },
+            "feels_like": {
+                "day": 267.66,
+                "night": 270.1,
+                "eve": 268.71,
+                "morn": 265.78
+            },
+            "pressure": 1013,
+            "humidity": 94,
+            "weather": [{
+                    "id": 600,
+                    "main": "Snow",
+                    "description": "light snow",
+                    "icon": "13d"
+                }],
+            "speed": 4.66,
+            "deg": 120,
+            "gust": 6.89,
+            "clouds": 100,
+            "pop": 0.98,
+            "snow": 2.44
+        }, {
+            "dt": 1702375200,
+            "sunrise": 1702365291,
+            "sunset": 1702386769,
+            "temp": {
+                "day": 273.8,
+                "min": 272.23,
+                "max": 273.8,
+                "night": 272.23,
+                "eve": 272.73,
+                "morn": 273.61
+            },
+            "feels_like": {
+                "day": 270.62,
+                "night": 269,
+                "eve": 269.59,
+                "morn": 270.53
+            },
+            "pressure": 1010,
+            "humidity": 99,
+            "weather": [{
+                    "id": 600,
+                    "main": "Snow",
+                    "description": "light snow",
+                    "icon": "13d"
+                }],
+            "speed": 2.79,
+            "deg": 138,
+            "gust": 4.58,
+            "clouds": 100,
+            "pop": 1,
+            "snow": 3.65
+        }, {
+            "dt": 1702461600,
+            "sunrise": 1702451770,
+            "sunset": 1702473145,
+            "temp": {
+                "day": 272.08,
+                "min": 266.56,
+                "max": 272.08,
+                "night": 266.56,
+                "eve": 269.97,
+                "morn": 271.83
+            },
+            "feels_like": {
+                "day": 270.16,
+                "night": 261.73,
+                "eve": 265.8,
+                "morn": 269.12
+            },
+            "pressure": 1013,
+            "humidity": 93,
+            "weather": [{
+                    "id": 600,
+                    "main": "Snow",
+                    "description": "light snow",
+                    "icon": "13d"
+                }],
+            "speed": 3.03,
+            "deg": 47,
+            "gust": 4.4,
+            "clouds": 100,
+            "pop": 0.25,
+            "snow": 0.82
+        }, {
+            "dt": 1702548000,
+            "sunrise": 1702538244,
+            "sunset": 1702559526,
+            "temp": {
+                "day": 263.33,
+                "min": 260.44,
+                "max": 265.6,
+                "night": 260.44,
+                "eve": 261.47,
+                "morn": 264.18
+            },
+            "feels_like": {
+                "day": 258.29,
+                "night": 256.99,
+                "eve": 256.93,
+                "morn": 258.56
+            },
+            "pressure": 1022,
+            "humidity": 95,
+            "weather": [{
+                    "id": 803,
+                    "main": "Clouds",
+                    "description": "broken clouds",
+                    "icon": "04d"
+                }],
+            "speed": 3.33,
+            "deg": 16,
+            "gust": 5.08,
+            "clouds": 83,
+            "pop": 0
+        }]
+}
