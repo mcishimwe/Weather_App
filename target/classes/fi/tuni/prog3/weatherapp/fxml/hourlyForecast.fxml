@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.scene.chart.CategoryAxis?>
+<?import javafx.scene.chart.LineChart?>
+<?import javafx.scene.chart.NumberAxis?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPaneHourly" prefHeight="344.0" prefWidth="497.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fi.tuni.prog3.weatherapp.controller.HourlyForecastController">
+   <children>
+      <LineChart fx:id="lineChart" animated="false" createSymbols="false" layoutX="14.0" prefHeight="297.0" prefWidth="437.0" style="-fx-border-color: #336699; -fx-border-width: 2px; -fx-border-radius: 5px; -fx-padding: 0px; -fx-font-size: 14px; -fx-font-weight: bold; -fx-font-family: Arial;" stylesheets="@../styles/hourlyforecast.css" title="Hourly forecast">
+        <xAxis>
+          <CategoryAxis fx:id="categotyAxisId" prefHeight="22.0" prefWidth="517.0" side="BOTTOM" style="-fx-border-color: ffffff;" />
+        </xAxis>
+        <yAxis>
+          <NumberAxis forceZeroInRange="false" prefHeight="350.0" prefWidth="30.0" side="LEFT" style="-fx-border-color: ffffff;" upperBound="0.0" />
+        </yAxis>
+         <styleClass>
+            <String fx:value="chart-legend-item-symbol" />
+            <String fx:value="chart-line-symbol" />
+         </styleClass>
+      </LineChart>
+   </children>
+</AnchorPane>

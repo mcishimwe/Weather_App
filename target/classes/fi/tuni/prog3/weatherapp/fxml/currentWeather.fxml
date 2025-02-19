@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="231.0" prefWidth="473.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fi.tuni.prog3.weatherapp.controller.CurrentWeatherController">
+    <stylesheets>
+        <URL value="@/fi/tuni/prog3/weatherapp/styles/currentweather.css" />
+    </stylesheets>
+   
+    
+    
+    <children>
+      <VBox alignment="CENTER" layoutX="14.0" layoutY="7.0" prefHeight="217.0" prefWidth="442.0" spacing="15" styleClass="vbox-style">
+         <children>
+            <Label fx:id="dateTimeLabel" style="-fx-text-fill: #cd7b1e;" styleClass="label-style" text="Dec 4, 22:07" textFill="#cd7b1e">
+               <font>
+                  <Font size="9.0" />
+               </font></Label>
+            <Label fx:id="currentWeatherLocationLabel" prefHeight="13.0" prefWidth="451.0" styleClass="label-style, label-loc" text="Helsinki, FI">
+               <font>
+                  <Font name="System Bold" size="9.0" />
+               </font></Label>
+            
+            <HBox prefHeight="81.0" prefWidth="352.0" spacing="15">
+                <Label fx:id="currentWeatherTempLabel" style="-fx-font-size: 40;" styleClass="label-style, label-temp" text="5 C" textFill="#1ae8e8">
+                  <font>
+                     <Font size="25.0" />
+                  </font></Label>
+                
+                 
+                <ImageView fx:id="weatherIcon" fitHeight="1.0" fitWidth="1.0" style="-fx-scale-x: 70; -fx-scale-y: 70; -fx-translate-y: 25; -fx-translate-x: 50;" />
+            </HBox>
+            <Label fx:id="currentWeatherStringLabel" styleClass="label-style, label-string" text="Clouds" />
+            <HBox>
+                <Label fx:id="currentWeatherHumidityLabel" style="-fx-padding: 10;" styleClass="label-style, label-hum" text="Humidity: 5%" />
+                <Label fx:id="currentWeatherWindLabel" alignment="CENTER_RIGHT" style="-fx-padding: 10;" styleClass="label-style, label-wind" text="2m/s" />
+            </HBox>
+            
+         </children>
+      </VBox>
+      
+   </children>
+   
+   
+</AnchorPane>
